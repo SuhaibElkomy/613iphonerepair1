@@ -1,0 +1,86 @@
+// Theme or skin specific modifiers.
+//
+// The following are some examples of how a theme modifier would work. Themes
+// are decoupled from a theme's structure and modifies a component or element's
+// default look and feel. Feel free to remove files.
+//
+// Example Markup:
+//  <button class="button t-button-light">Submit</button>
+
+// Buttons: Light
+//
+// 1. Variable settings are set as !default so they can be overriden inside the
+//    classes or a seperate file.
+// ------------------------------------------------------
+$button-light-bg: #ff0000 !default; /* 1 */
+$button-light-color: #333 !default;
+button, .button {
+    transition: all 0.3s ease 0s;
+    background: #7b33be;
+    background: -moz-linear-gradient(-45deg, #7b33be 0%, #b320d0 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #7b33be), color-stop(100%, #b320d0));
+    background: -webkit-linear-gradient(-45deg, #7b33be 0%, #b320d0 100%);
+    background: -o-linear-gradient(-45deg, #7b33be 0%, #b320d0 100%);
+    background: -ms-linear-gradient(-45deg, #7b33be 0%, #b320d0 100%);
+    background: linear-gradient(135deg, #7b33be 0%, #b320d0 100%);
+}
+
+.t-button-light {
+    background-color: $button-light-bg;
+    color: $button-light-color;
+}
+
+// Buttons: Dark
+// ------------------------------------------------------
+$button-dark-bg: #330000 !default;
+$button-dark-color: #fff !default;
+
+.t-button-dark {
+    background-color: $button-light-bg;
+    color: $button-light-color;
+}
+
+button:hover, button:focus,
+.button:hover, .button:focus,
+.button.dark,
+button.dark {
+    padding-left: 32px;
+}
+
+button.dark:hover, button.dark:focus,
+.button.dark:hover, .button.dark:focus {
+    padding-right: 32px;
+}
+
+.wd-outline-button {
+    border: 1px solid #333;
+    color: #333;
+    font-size: 11px;
+    padding: 14px 18px;
+}
+
+button.small, .button.small {
+    padding: 8px 20px;
+    &:hover {
+        padding: 8px 28px;
+    }
+}
+
+.button.download-btn {
+    background-color: #d9ab1d;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 52px;
+    margin-bottom: 1.25rem;
+    i {
+        margin-right: 3px;
+        font-size: 17px;
+    }
+    &:hover {
+        background-color: #ccc;
+    }
+}
+

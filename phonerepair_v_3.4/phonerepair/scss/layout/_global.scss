@@ -1,0 +1,323 @@
+
+
+/* Preloader 
+body {
+  overflow: hidden;
+}*/
+
+code, abbr[title]{
+  color: #747474;
+}
+blockquote p{
+  color:#fff;
+}
+#preloader {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#fff; /* change if the mask should have another color then white */
+  z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+  width:200px;
+  height:200px;
+  position:absolute;
+  left:50%; /* centers the loading animation horizontally one the screen */
+  top:50%; /* centers the loading animation vertically one the screen */
+  background-image:url(../images/big-preloader.gif); /* path to your loading animation */
+  background-repeat:no-repeat;
+  background-position:center;
+  margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+
+.m-0 {
+  margin: 0 !important;
+}
+.m-t-50 {
+  margin-top: 50px !important;
+}
+.m-b-0 {
+  margin-bottom: 0 !important;
+}
+.p-0 {
+  padding: 0 !important;
+}
+
+.p-0-15 {
+  padding: 0 em-calc(15);
+}
+.p-0-20 {
+  padding: 0 em-calc(20);
+}
+.p-t-0 {
+  padding-top: 0 !important;
+}
+.p-t-15 {
+  padding-top: 15px !important;
+}
+.p-t-20 {
+  padding-top: 20px !important;
+}
+.p-t-150 {
+  padding-top: 150px;
+}
+.p-b-40 {
+  padding-bottom: 40px !important;
+}
+.p-b-15 {
+  padding-bottom: 15px !important;
+}
+.p-b-20 {
+  padding-bottom: 20px !important;
+}
+
+.p-0-r-8 {
+  @extend .p-0;
+  padding-right: em-calc(8) !important;
+}
+.p-0-l-8 {
+  @extend .p-0;
+  padding-left: em-calc(8) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  html body.admin-menu {
+    margin-top: 80px !important;
+  }
+}
+
+
+.wpb_row {
+  &.row {
+    margin: 0 auto;
+    clear: both;
+  }
+}
+div{
+  &.vc_separator {
+    h4 {
+  font-size: 2.64286em;
+  padding-left:0;
+    }
+    &.vc_separator_align_center h4 {
+    text-align:center
+  }
+  } 
+}
+
+.l-boxed {
+  .page {
+    margin: 0 auto;
+    max-width: 1140px;
+  }
+}
+
+.title-center .block-title {
+  @extend .text-center;
+}
+
+.textwidget {
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.714;
+    margin-bottom: 1.42857em;
+}
+div.view-blog.view-display-id-block_1.black-separateur ul li {
+ clear: both;
+} 
+
+#main-menu li ul li {
+    background: none repeat scroll 0 0 #fff;
+}
+.post-categories, .post-categories li {
+    display: inline;
+    margin: 0;
+}
+
+input.wpcf7-submit {
+  @extend .primary-color_bg;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  padding:10px 20px;
+}
+div.wpcf7 img.ajax-loader {
+  float: left;
+}
+.l-footer-columns div.wpcf7 img.ajax-loader {
+  float: right;
+}
+.wpcf7-form .text-right.wpb_columns > p {
+  background-color: #F7F7F7;
+}
+#content-body { margin-top : 50px;}
+.body.field .vc_responsive .wpb_row .vc_span12 {
+  padding-left : 0;
+  padding-right : 0;
+}
+.vc_separator h4 {
+  color: inherit;
+}
+.wp-caption {
+  max-width: 100%;
+}
+.wp-caption-text {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 9px 0;
+}
+.gallery-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+  max-height: 50%;
+  opacity: 0;
+  padding: 6px 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  width: 100%;
+}
+.bypostauthor > article .fn:before,
+.comment-edit-link:before,
+.comment-reply-link:before,
+.comment-reply-login:before,
+.comment-reply-title small a:before,
+.contributor-posts-link:before,
+.menu-toggle:before,
+.search-toggle:before,
+.slider-direction-nav a:before,
+.widget_twentyfourteen_ephemera .widget-title:before {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font: normal 16px/1 Genericons;
+  text-decoration: inherit;
+  vertical-align: text-bottom;
+}
+.alignright {
+  float: right;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.alignleft {
+  float: left;
+}
+
+.nav-layout-metro .top-bar-section ul li:hover:not(.has-form) > a, 
+.nav-layout-metro .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+  background: none;
+}
+.color-1,ul li.color-1 {
+  background: $color-1;
+}
+.color-2,ul li.color-2,.nav-layout-metro .top-bar-section li.has-dropdown.color-2 ul.sub-menu.dropdown  a:hover {
+  background: $color-2;
+}
+.color-3,ul li.color-3, .nav-layout-metro .top-bar-section li.has-dropdown.color-3 ul.sub-menu.dropdown  a:hover {
+  background: $color-3;
+}
+.color-4,ul li.color-4,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-4 ul.sub-menu.dropdown  a:hover {
+  background: $color-4;
+}
+.color-4,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-4 ul.sub-menu.dropdown  a:hover {
+  background: $color-4;
+}
+.color-5,ul li.color-5,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-5 ul.sub-menu.dropdown  a:hover {
+  background: $color-5;
+}
+.color-5,ul li.color-5,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-5 ul.sub-menu.dropdown  a:hover {
+  background: $color-5;
+}
+.color-6,ul li.color-6,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-6 ul.sub-menu.dropdown  a:hover {
+  background: $color-6;
+}
+.color-7,ul li.color-7,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-7 ul.sub-menu.dropdown  a:hover {
+  background: $color-7;
+}
+.color-8,ul li.color-8,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-8 ul.sub-menu.dropdown  a:hover {
+  background: $color-8;
+}
+.color-9,ul li.color-9,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-9 ul.sub-menu.dropdown  a:hover {
+  background: $color-9;
+}
+.color-10,ul li.color-10,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-10 ul.sub-menu.dropdown  a:hover {
+  background: $color-10;
+}
+.color-11,ul li.color-11,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-11 ul.sub-menu.dropdown  a:hover {
+  background: $color-11;
+}
+
+
+.black,
+.black .page {
+  background: #222;
+  color: #FFF;
+}
+body.black {
+  background: #FFF;
+}
+h1, h2, h3, h4, h5, h6 {
+  .black & {
+    color: #FFF;
+  }
+}
+.wpb_column h3 {
+    color: inherit;
+}
+.l-boxed .page {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2)
+}
+div.vc_separator h4 {
+  font-size: 2em;
+}
+
+.nav-layout-metro .top-bar-section li.has-dropdown ul.sub-menu.dropdown  a:hover {
+  color: #fff;
+}
+#commentform label {
+  margin-bottom: 8px;
+}
+.wd-section-title h2, .wd-smple-title h2 {
+  font-weight: 300;
+  font-size: 27px;
+  text-transform: uppercase;
+  font-family: open sans, sans;
+}
+.wd-smple-title {
+  p {
+    font-size: 13px;
+  }
+}
+
+.vc_icon_element.decoration-icon {
+  margin: 20px 0px 10px;
+}

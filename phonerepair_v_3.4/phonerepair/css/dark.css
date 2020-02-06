@@ -1,0 +1,744 @@
+.primary-color_color,
+a, a:focus,
+a.active,
+a:active, a:hover, .sidebar ul li a:hover, .box-container:hover .box-title,
+.creative-layout .top-bar-section ul.menu>li:hover:not(.has-form)>a,
+.counter, .boxes.small .box-icon i {
+  color: #B9906F;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+.p-t-30 {
+  padding-top: 30px;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+table {
+  background-color: #111;
+  border: 1px solid #222;
+}
+table thead {
+  background: #222;
+}
+table tr.even, table tr.alt,
+table tr:nth-of-type(2n) {
+  background: #191919 none repeat scroll 0% 0%;
+}
+table tr th, table tr td,
+table thead tr th, table thead tr td{
+  color: #EEE;
+}
+code, abbr[title] {
+  color: #ddd;
+}
+/*--------------------------- Forms ----------------------*/
+label {
+  color: #fff;
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"],
+input[type="month"], input[type="week"], input[type="email"], input[type="number"],
+input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea,
+
+.wpb_wrapper input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email,
+.wpcf7-text{
+  background-color: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.18) !important;
+  transition: all .35s;
+  color: #FFF;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus,
+input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus,
+input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus,
+input[type="url"]:focus, input[type="color"]:focus, textarea:focus,
+
+.wpb_wrapper input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email:focus,
+.wpcf7-text:focus {
+  border-color: rgba(255, 255, 255, 0.48) !important;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media only screen and (max-width: 40em){
+  .creative-layout .top-bar .title-area .name,
+  .top-bar-section, .top-bar-section ul, .top-bar-section li a:not(.button){
+    background: #000;
+  }
+  .top-bar-section .dropdown li.title h5 a {
+    color: #fff;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .l-header.creative-layout {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+  }
+  .has-title-area .l-header.creative-layout,
+  .blog .l-header.creative-layout,
+  .single-post .l-header.creative-layout,
+  .woocommerce-page .l-header.creative-layout {
+    position: relative;
+  }
+.creative-layout .top-bar-container {
+  background-color: rgb(17, 11, 11);
+}
+.contain-to-grid .top-bar {
+  max-width: 100%;
+  background: rgba(0, 0, 0, 0.33);
+}
+.contain-to-grid .top-bar:hover {
+  background: rgba(0, 0, 0, 0.66);
+}
+.creative.top-bar-section {
+  background: transparent;
+  top:0;
+  box-shadow: none;
+}
+.creative-layout .top-bar-section ul li {
+  background-color: transparent !important;
+}
+.creative-layout .top-bar-section ul li > a {
+  color: #FFF;
+}
+.top-bar .name h1 a {
+  background-image: url("../images/bg-logo-dark.png");
+}
+.social_logo_top {
+  color: #FFF;
+  padding-top: 16px;
+  padding-bottom: 2px;
+}
+
+
+  .top-bar .name h1 a {
+    padding: 0;
+    position: relative;
+    min-height: 110px;
+    right: auto;
+    width: 200px;
+    background: rgba(5, 29, 61, 0.8);
+  }
+
+
+  /*______________Style 2___________*/
+  .style-2 .contain-to-grid .top-bar {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0% 0%;
+  }
+  .style-2 .top-bar .name {
+    font-size: 16px;
+    height: 2.8125rem;
+    margin-left: calc(50% - 133px);
+  }
+  .style-2 .top-bar .name h1 a {
+    background: transparent;
+  }
+  .style-2.creative-layout .top-bar.top_bar_logo_top .title-area {
+    padding-bottom: 15px;
+    height: 121px;
+  }
+  .style-2.creative-layout .fixed .top-bar.top_bar_logo_top .title-area {
+    opacity: 0;
+  }
+  .style-2 .social_logo_top {
+    width: 100%;
+  }
+  .style-2 .social_logo_top .contact-info {
+    float: none;
+    margin-left: 0;
+  }
+  .style-2 .creative.top-bar-section {
+    border-bottom: 2px solid rgb(182, 134, 0);
+    border-top: 2px solid rgb(182, 134, 0);
+    padding: 10px 0px;
+  }
+  .style-2 .creative.top-bar-section div.row {
+    padding-left: 0;
+  }
+  .style-2.creative-layout .top-bar.top_bar_logo_top .menu-main-menu-container {
+    text-align: center;
+  }
+  .style-2.creative-layout .top-bar.top_bar_logo_top .menu-main-menu-container ul.menu {
+    text-align: center;
+    float: none !important;
+    margin: 0px auto;
+  }
+  .style-2 .top-bar-section ul li {
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+}
+
+
+
+body p {
+  font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+
+/*________________  Page Tiles  ______________*/
+.titlebar,
+.woocommerce .titlebar {
+  background-color: #282828;
+  color: #fff;
+  padding: 80px 0 45px 0;
+  margin-bottom: 90px;
+}
+.woocommerce .menu-overlay .titlebar {
+  padding: 250px 0 45px 0;
+}
+.titlebar .title {
+  color: #fff;
+  margin: 0;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.breadcrumbs,
+.breadcrumbs a,
+.breadcrumbs>.current a,
+.breadcrumbs>* {
+  color: #fff;
+}
+.breadcrumbs {
+	 margin-top: 10px;
+}
+.woocommerce .woocommerce-breadcrumb, 
+.woocommerce-page .woocommerce-breadcrumb {
+	margin-top: 10px;
+}
+/*_________________  Services List  ________________*/
+.wd-services {
+  background-color: #221D17;
+}
+@media only screen and (max-width: 900px) {
+  .wd-services .vc_col-sm-4 {
+    max-width: 100%;
+  }
+}
+.wd-services .featured-box-text h4 {
+  color: #B9906F;
+  font-family: open sans;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+div.vc_custom_1441214610146 {
+  background-color: #000 !important;
+}
+.services-list > li {
+  background-color: #222;
+  border: 1px solid #222;
+}
+.services-list .alignnone {
+  margin: 0 0 20px 0;
+}
+.services-list li h4 {
+  color: #fff;
+}
+.services-list li h4:after {
+  background: #F4BC16;
+}
+.services-list li h4 a {
+  color: #fff;
+}
+.services-list > li p {
+  color: #777;
+}
+.services-list li h4:after {
+  background: #B9906F;
+}
+
+/*_____________  Schedule free estimate  ______________*/
+.wd-estimate > .wpb_column:nth-child(2) {
+  min-height: 430px;
+}
+@media (max-width: 768px) {
+  .wd-estimate > .wpb_column:nth-child(2) {
+    width: 100%;
+  }
+}
+
+/*_____________  Our Numbers  ______________*/
+div.vc_custom_1440852186193,
+div.our-numbers {
+  background-color: #0E0E10 !important;
+}
+@media only screen and (max-width: 900px) {
+  .our-numbers .vc_col-sm-6:last-child {
+    min-width: 100%;
+  }
+}
+
+/*_____________  Title  ______________*/
+.wd-section-title.text-center>h2,
+.title-center .wd-section-title.block-title>h2 {
+  color: #fff;
+}
+.wd-section-title>.subtitle {
+  color: #B9906F;
+}
+.wd-section-title h2:after {
+  background-color: #B9906F;
+}
+/*_____________menu_______________*/
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+  background: rgba(12, 6, 2, 0.85);
+	color: #f9f9f9;
+  text-align: left;
+}
+.hidden-cart{
+	background : #000;
+}
+.hidden-cart li{
+	color : #fff;
+}
+.top-bar-section .dropdown li:hover:not(.has-form):not(.active) > a:not(.button) {
+  background: rgba(12, 6, 2, 0.95);
+  color: #fff;
+}
+/*_____________  Presentation Block  ______________*/
+.wd-presentation {
+  text-align: right;
+  padding: 50px 0;
+}
+.wd-presentation h4 {
+  color: #B9906F;
+  font-family: "open sans", sans;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 2px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.wd-presentation h2 {
+  font-family: open sans, sans;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.wd-presentation p {
+  color:#C1C1C1;
+}
+.wd-presentation .readmore {
+  color: #B9906F;
+}
+@media only screen and (max-width: 900px) {
+  .vc_custom_1443268288153 {
+    padding: 100px;
+    min-width: 80%;
+  }
+}
+/*________________  Blog Post List  ______________*/
+.post-item article.article {
+  border: 1px solid #222;
+  background-color: #222;
+  text-align: center;
+  transition: all .3s;
+}
+.post-item article.article:hover {
+  background-color: #282828;
+}
+.blog-page.blog-shortcode article h2 {
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 30px;
+}
+.blog-page article h2 a {
+  color: #fff;
+}
+.blog-page .post-datas {
+  color: #bbb;
+}
+.blog-page .post-datas::before {
+  background-color: #B9906F;
+  content: " ";
+  height: 1px;
+  position: absolute;
+  top: 40px;
+  width: 140px;
+  left: calc(50% - 70px);
+}
+.post-text {
+  color: #777;
+  padding: 0px 12px 23px 10px;
+}
+.post-list .post-text .text-right{
+  text-align: center !important;
+}
+.post-list .post-text .text-right a {
+  color: #B9906F;
+  font-style: italic;
+}
+/*______________pagination_____________*/
+.wd-pagination span {
+	background: #B68600;
+}
+.blog-page .post-infos li {
+	margin-bottom:10px;
+}
+/*___________________  Blog Post List  ______________*/
+#commentform label {
+  margin-bottom: 2px;
+  margin-top: 8px;
+}
+.woocommerce #respond input#submit {
+  background-color: #f5c93e;
+}
+
+/************** small recent from blog **************/
+.small-blog.blog-shortcode {
+  margin: 0;
+  width: 100%;
+}
+
+
+
+/*__________________  Career Opportunities  ______________*/
+div.vc_custom_1441219013102 {
+  background-color: #111 !important;
+}
+.careers .vacancyList li .job {
+  color: #B9906F;
+  font-weight: 700;
+}
+.careers .job-list {
+  background: -webkit-linear-gradient(to top right, #16121a, #2b1e11); /* Safari 5.1, Chrome 10+ */
+  background: -moz-linear-gradient(to top right, #16121a, #2b1e11);  /* Firefox 3.6+ */
+  background: -ms-linear-gradient(to top right, #16121a, #2b1e11); /* IE 10 */
+  background: linear-gradient(to top right, #16121a, #2b1e11);
+}
+.careers .careers-left h4 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  line-height:
+44px; font-size: 40px;
+}
+
+/*_____________  Team Members  ______________*/
+li .team-member-item {
+  background-color: #222;
+  border: 1px solid #222;
+  transition: all .3s;
+}
+li .team-member-item:hover {
+  background-color: #282828;
+}
+.team-member-item h3 {
+  font-size: 17px;
+  color: #fff;
+}
+.team-member-item h4 {
+  color: #bbb;
+}
+.team-member-desc>p {
+  color: #777;
+}
+.team-membre-social-icons ul {
+  border-top: 1px solid #B9906F;
+}
+.team-membre-social-icons ul li a:hover {
+  background-color: #B9906F;
+  border-color: #B9906F;
+}
+
+/*_____________  Call to Action  ______________*/
+div.vc_general.vc_cta3.vc_cta3-style-custom {
+  border-color: #333;
+  background-color: #333;
+}
+div.vc_general.vc_cta3.vc_cta3-style-custom h2 {
+  color: #eee !important;
+  font-size: 22px;
+  padding-top: 6px;
+}
+
+/*____________contact_________________*/
+.map-description h4 {
+	color: #333;
+}
+/*_____________  Blog  ______________*/
+.blog-page .large-block-grid-3>li {
+  margin-bottom: 25px;
+  padding: 0 9px 10px;
+}
+.blog-page .post.has-post-thumbnail header {
+  margin-bottom: 25px;
+}
+.blog-page .post-infos {
+  margin: 0 0 0px;
+  font-size: 13px;
+  line-height: 12px;
+}
+.blog-page article h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 20px 0 0;
+}
+.blog-page .quote-format blockquote {
+  background-color: #191919;
+}
+.blog-page .format-link .quote-format blockquote {
+	background:none;
+}
+.blog-page .quote-format p,
+.blog-page .quote-format p a {
+  color: #f0f0f0;
+  font-weight: 500;
+}
+
+/*_____________  WoooCommmerce  ______________*/
+.woocommerce .titlebar {
+  background-image: none;
+}
+.woocommerce ul.products .product.type-product.status-publish.has-post-thumbnail {
+  border: none;
+}
+.woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3 {
+  color: #B9906F;
+}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
+  color: #fff;
+}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price,
+.woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3 {
+  background-color: #000;
+}
+
+.woocommerce nav.woocommerce-pagination ul {
+  border: 1px solid #333;
+}
+.woocommerce nav.woocommerce-pagination ul li {
+  border: 1px solid #333;
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+  background: #B9906F;
+  color: #FFFFFF;
+}
+.woocommerce .woocommerce-ordering select {
+  background-color: #000;
+  border: 1px solid #777;
+}
+.summary.entry-summary > div[itemprop="description"] p {
+  clear: both;
+}
+.woocommerce div.product .woocommerce-tabs .panel {
+  background-color: rgba(255, 255, 255, 0.11);
+}
+.woocommerce div.product .woocommerce-tabs .panel p {
+  color: #FFF;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+  border-radius: 0;
+}
+.woocommerce #reviews h3 {
+  margin: 40px 0 20px 0;
+  color: #fff;
+}
+/*_____________________  comments  ______________*/
+section.comment {
+  border-bottom: 1px solid rgba(244, 244, 244, 0.14);
+}
+.comment-reply-link {
+  color: #B9906F;
+  font-size: 12px;
+  float: none;
+}
+.comment p {
+  color: #FFF;
+}
+.button.small[type="submit"] {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+/*_____________________  Sidebar  ______________*/
+.sidebar>section ul li {
+  border-top: 1px solid rgba(255, 250, 250, 0.22);
+  padding: 10px 0;
+}
+.sidebar ul li a {
+  color: #fff;
+}
+
+/*  Search   */
+.searchform #s {
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  background-color: #333;
+}
+
+/*  Latest Posts   */
+.sidebar .latest-posts ul li {
+  border: none;
+}
+.latest-posts .blog-title {
+  margin: 0;
+  line-height: 12px;
+  padding-bottom: 7px;
+}
+.latest-posts .blog-title a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #eee;
+}
+/*  Woocommerce   */
+.product_list_widget > li {
+  border-bottom: 1px solid #222;
+}
+.widget_product_search.shop-widgets {
+  padding: 40px 0 20px;
+}
+.widget_product_search.shop-widgets .search-field {
+  background-color: #333;
+  border: none;
+  color: #fff;
+}
+.woocommerce-product-search > input[type="submit"] {
+  background-color: #B9906F;
+  font-weight: 600;
+  padding: 8px 20px;
+}
+.woocommerce ul.product_list_widget li a,
+.woocommerce-page ul.product_list_widget li a {
+  color: #eee;
+}
+.woocommerce ul.product_list_widget li a:hover,
+.woocommerce-page ul.product_list_widget li a:hover {
+  color: #fff;
+}
+.woocommerce .star-rating {
+  height: 1.5em;
+  font-size: .75em;
+  color: #B9906F;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle {
+  border-radius: 7px;
+  top: -6px;
+}
+.amount {
+  margin-left: 0;
+}
+.woocommerce .widget_price_filter .ui-slider-horizontal {
+  height: 3px;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range {
+  background: #B9906F;
+}
+
+select, select:hover {
+	background-color:transparent;
+	background-image:url(../images/flech.png)
+}
+.tagcloud a {
+	background: #222;
+	padding: 4px 5px;
+}
+.wp-caption {
+    background: #222 none repeat scroll 0 0;
+    border: 1px solid #333;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.sidebar   table {
+	background:#000000;
+}
+.sidebar table caption,.sidebar table#wp-calendar a {
+	color:#fff;
+}
+.sidebar table tr th, .sidebar table tr td {
+	color:#eee;
+}
+/*_______________________________  Services sidebar  __________________________*/
+.sidebar-second.sidebar-left ul li {
+  border-left: none;
+  border-left: 0px solid #000;
+}
+.sidebar-second.sidebar-left ul li:hover {
+  border-left: 0px solid #B68600;
+}
+.sidebar-second.sidebar-left ul li:hover,
+.sidebar-second.sidebar-left ul li.current-menu-item,
+.sidebar-second.sidebar-left ul li.current-menu-item:hover {
+  background: #131212;
+  background: repeating-linear-gradient( -55deg, #050505, #050505 10px, #131212 10px, #131212 20px );
+}
+.sidebar-second.sidebar-left ul li.current-menu-item a,
+.sidebar-second.sidebar-left ul li:hover a {
+  color: #B68600;
+}
+
+.sidebar-second.sidebar-left > section ul li:first-child {
+  border-top: 1px solid #555;
+}
+
+
+/*_________________________________  Footer  __________________________________*/
+.l-footer-columns,
+.l-footer {
+  background-color: #131210;
+}
+
+.newsletter-div input.email-adress {
+    background-color: transparent;
+    height: 40px;
+    width: auto;
+}
+.newsletter-div .newslettersubmit {
+left: 172px;
+background-color: #B9906F;
+}
+
+/*_______________________________  Tabs & Accordion  _____________________________*/
+div.wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab,
+.wpb_tour .wpb_tour_tabs_wrapper .wpb_tab,
+.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab,
+.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content{
+  background-color: rgba(255, 249, 249, 0.13);
+}
+div.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header,
+div.wpb_wrapper ul.ui-tabs-nav li.ui-state-default {
+  background-color: rgba(255, 255, 255, 0.44);
+}
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active.tabs-icon,
+.wpb_content_element .wpb_tabs_nav li.tabs-icon:hover {
+  background-color: rgba(255, 255, 255, 0.58);
+}
+
+/*_______________________________  Pagination  _____________________________*/
+.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span {
+  padding: 8px 18px;
+}
+.woocommerce .products .product .button, .woocommerce .widget_price_filter .price_slider_amount .button {
+  background-color: #B9906F;
+}
+
+.wd-front-panel table tr.even, .wd-front-panel table tr.alt, .wd-front-panel table tr:nth-of-type(2n) {
+  background-color: #f4f4f4;
+}
+.wd-front-panel table tr th, .wd-front-panel table tr td, .wd-front-panel table thead tr th, .wd-front-panel table thead tr td {
+  color: #333;
+}

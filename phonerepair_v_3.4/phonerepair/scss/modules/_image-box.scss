@@ -1,0 +1,117 @@
+
+// *********************** image-box ***********************
+.image-box-item {
+	margin-top: 2em;
+}
+.image-box-item img {
+	box-shadow: 0px 0px 3px 0px rgba(237, 237, 237, 0.46);
+	padding: 4px;
+	border: 1px solid #E7E7E7;
+	&:hover {
+	}
+}
+.image-box-text, .scene {
+	padding: 3px;
+	h5 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		a {
+			color: #3C3F43;
+		}
+	}
+	p {
+		font-size: 12px;
+		font-family: 'Open Sans', sans-serif;
+		color: #737373;
+	}
+}
+h3.title {
+	color: #5A53DD;
+}
+// *********************** END IMAGE BOX ***********************
+.scene{
+	padding: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 200px;
+  perspective: 600px;
+  margin: 20px auto;
+}
+.flip{
+  transform-style: preserve-3d;
+}
+.flip,
+.flip > div{
+  width: inherit;
+  height: inherit;
+  transition: transform 1s;
+}
+.flip > div{
+  line-height: 200px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.arriere{
+	padding: 3px;
+  background-color: #F7F7F7;
+  transform: rotateY(-180deg);
+}
+.scene:hover .flip{
+  transform: rotateY(-180deg);
+}
+
+.image-box-style3 {
+	.arriere{
+	  transform: rotateX(180deg);
+	}
+	.scene:hover .flip{
+	  transform: rotateX(180deg);
+	}	
+}
+// Google map full width
+iframe {
+	width: 100%;
+}
+div.map-popup {
+    display: inline-block;
+}
+div.map-img {
+  display: inline-block;
+  float: left;
+  width: 320px;
+}
+div.map-text {
+  display: inline-block;
+  width: 10em;
+  margin-left: 0.5em;
+}
+// END GOOGLE MAP
+
+// ************************
+
+// PARALLAX
+.parallax {
+  background-size: 100%;
+  background-position: 50% auto;
+        background-attachment: fixed;
+}
+// END PARALLAX
+
+#bg_video {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        background: none;
+
+    }
+    /* Everything inside container should be above video */
+    #bg_video * {
+        position: relative;
+        z-index: 10;
+        /* video should be underneath */
+    .video {
+        position: absolute;
+        z-index: 1;
+    }
+    }
+    

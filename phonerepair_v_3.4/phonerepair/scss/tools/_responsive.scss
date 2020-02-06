@@ -1,0 +1,41 @@
+@media #{$small-up} {
+	.collapsed-title, .collapsed-title h1 {
+	  font-size: 1.6em;
+	  font-weight: bolder;
+	  line-height: 1.2em;
+	  margin: 0;
+	}
+	.corporate-layout .top-bar.expanded {
+	  height: auto;
+	}
+
+}
+@media #{$small-only} {
+	.show-cart-btn {
+		display: none;
+	}
+}
+
+@media #{$medium-up} {
+	.corporate-layout .top-bar {
+		height: 100px;
+	}
+}
+
+@media #{$large-up} {
+	body {
+		
+	}
+}
+
+@media #{$xlarge-up} {
+	body {
+		
+	}
+}
+
+@media #{$xxlarge-up} {
+	body {
+		
+	}
+}

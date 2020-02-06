@@ -1,0 +1,39 @@
+// *********************** COUNT-UP ***********************
+.countto {
+	padding: 2em 3em;
+	display: block;
+}
+	div.icon {
+		text-align: center;
+		font-size: 50px;
+		padding: 20px;
+	}
+	.counter {
+		font-size: 4em;
+    font-weight: 600;
+    @extend .primary-color_color;
+    padding-top: 12px;
+    text-align: center;
+	}
+
+.style1 {
+	margin-bottom: 30px;
+}
+.style2,.style3 {
+	margin-bottom: 30px;
+	div.icon {
+		display: inline;
+	}
+	.counter {
+		display: inline;
+	}
+}
+.style5 .counter-box {
+		padding: 20px 10px;
+	}
+	
+.layout-3 {
+  .box-title-3 {
+    text-align: center;
+  }
+}

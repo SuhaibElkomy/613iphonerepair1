@@ -1,0 +1,96 @@
+body .pt-perspective.menu-overlay .top-bar-container {
+  position: absolute;
+}
+
+.top-bar-section .has-dropdown .dropdown li > a::after {
+  border-color: transparent transparent transparent rgba(0, 0, 0, 0.52);
+}
+.top-bar .toggle-topbar.menu-icon {
+  margin-top: 0;
+}
+.creative-layout .top-bar-container, .creative-layout .top-bar {
+  background-color: #FFF;
+}
+.top-bar li.toggle-topbar.menu-icon a span::after {
+  box-shadow: 0 0 0 1px #777777, 0 7px 0 1px #777777, 0 14px 0 1px #777777 !important;
+}
+.top-bar-section .has-dropdown > a::after {
+  border-color: transparent transparent transparent #777;
+}
+.creative-layout .top-bar-section ul.sub-menu > li > ul.sub-menu {
+  left: 100%;
+}
+/*
+   * ---------mega menu-----------------*/
+@media #{$topbar-media-query} {
+  .phonerepair_mega-menu {
+    > .sub-menu.dropdown {
+      width: -moz-max-content;
+      padding-right: 150px;
+      padding-bottom: 20px;
+      left: calc(-50% - 75px);
+      & > li {
+        width: auto;
+        display: table-cell;
+        float: none;
+        & > .sub-menu.dropdown {
+          position: unset !important;
+          box-shadow: none;
+          padding: 0 !important;
+          padding-bottom: 0;
+          display: block;
+          overflow: visible;
+          width: 100%;
+          background-color: transparent;
+        }
+      }
+    }
+
+  }
+  .top-bar-section .phonerepair_mega-menu .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+    background: none;
+
+  }
+
+  .phonerepair_mega-menu > .dropdown > li > a {
+    font-weight: bold;
+  }
+  .top-bar-section .has-dropdown .dropdown li.has-dropdown > a::after {
+    content: "";
+  }
+
+  .top-bar-section .phonerepair_mega-menu > .dropdown > li:not(.has-form):not(.active) > a:not(.button) {
+    background: transparent;
+    color: #000;
+    text-transform: uppercase;
+  }
+  .top-bar-section .phonerepair_mega-menu > .dropdown > li:hover:not(.has-form):not(.active) > a:not(.button) {
+    background: transparent;
+    color: #000;
+  }
+  .top-bar-section .phonerepair_mega-menu .dropdown .dropdown > li:not(.has-form) a:not(.button) {
+    line-height: 2em;
+  }
+
+
+  .title.back.js-generated {
+    display: none !important;
+  }
+
+}
+.top-bar .toggle-topbar.menu-icon {
+  top : 0;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  @media #{$small-only} {
+    padding: 10px 25px;
+
+  }
+}
+.empty-menu {
+  color: #fff;
+  a {
+    color :#fff;
+  }
+}

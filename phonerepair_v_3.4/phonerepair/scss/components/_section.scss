@@ -1,0 +1,128 @@
+.section-container.auto > section, 
+.section-container.auto > .section, 
+.section-container.vertical-tabs > section, 
+.section-container.vertical-tabs > .section, 
+.section-container.vertical-nav > section, 
+.section-container.vertical-nav > .section, 
+.section-container.horizontal-nav > section, 
+.section-container.horizontal-nav > .section, 
+.section-container.accordion > section, 
+.section-container.accordion > .section {
+  &  > .title a {
+    padding: 0.7em 1.07143em;
+  }
+}
+
+
+
+.section-container.vertical-tabs > section.active, 
+.section-container.vertical-tabs > .section.active {
+  padding-left: 1.75em;
+}
+
+.section-container.vertical-tabs section .content, 
+.section-container.vertical-tabs .section .content {
+  width: 79%;
+  width: calc(100% - 12.5em);
+}
+
+
+
+
+
+.section-container.auto > section, 
+.section-container.auto > .section {
+  & > .title {
+    background-color: #FAFAFA;
+    border: 1px solid #EEEEEE;
+    .black & {
+      background-color: #444;
+      border: 1px solid #333;
+    }
+    &:hover {
+      background-color: #F2F2F2;
+    }
+    & a {
+      padding: 0.7em 1.07143em;
+    } 
+  }
+  &.active .title {
+    border-top: 2px solid $primary-color;
+  }
+  &:last-child .title {
+    border-right: 1px solid #EEEEEE;
+    .black & {
+      border-right: 1px solid #333;
+    }
+  }
+  
+  & > .content, 
+  & > .content {
+    background-color: #FFFFFF;
+    .black & {
+      background-color: #272727;
+      border: 1px solid #333;
+    }
+    border: 1px solid #EEE;
+    padding: 1.07143em;
+  }
+}
+
+.section-container.auto > section > .title, 
+.section-container.auto > .section > .title, 
+.section-container.vertical-tabs > section > .title, 
+.section-container.vertical-tabs > .section > .title, 
+.section-container.vertical-nav > section > .title, 
+.section-container.vertical-nav > .section > .title, 
+.section-container.horizontal-nav > section > .title, 
+.section-container.horizontal-nav > .section > .title, 
+.section-container.accordion > section > .title, 
+.section-container.accordion > .section > .title {
+  background-color: #FAFAFA;
+  .black & {
+    background-color: #444;
+    a {
+      color: #FFF;
+    }
+  }
+}
+
+
+.section-container.auto, 
+.section-container.vertical-tabs, 
+.section-container.vertical-nav, 
+.section-container.horizontal-nav, 
+.section-container.accordion {
+  border: none;
+}
+
+.section-container.accordion > section > .title, 
+.section-container.accordion > .section > .title {
+  border: none;
+}
+.section-container.auto > section.active > .title, 
+.section-container.auto > .section.active > .title, 
+.section-container.vertical-tabs > section.active > .title, 
+.section-container.vertical-tabs > .section.active > .title, 
+.section-container.vertical-nav > section.active > .title, 
+.section-container.vertical-nav > .section.active > .title, 
+.section-container.horizontal-nav > section.active > .title, 
+.section-container.horizontal-nav > .section.active > .title, 
+.section-container.accordion > section.active > .title, 
+.section-container.accordion > .section.active > .title {
+  background: #FFF;
+  border-top: 2px solid $primary-color;    
+  .black & {
+    background-color: #272727;
+  }
+}
+
+.section-container.accordion > section > .content, 
+.section-container.accordion > .section > .content {
+  border: none;
+  border-top: 1px solid #EEE;
+  .black & {
+    background-color: #272727;
+    border-top: 1px solid #888;
+  }
+}

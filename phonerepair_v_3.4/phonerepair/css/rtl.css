@@ -1,0 +1,145 @@
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+	text-align: right;
+	direction: rtl;
+}
+div.vc_col-sm-1, div.vc_col-sm-2, div.vc_col-sm-3, 
+div.vc_col-sm-4, div.vc_col-sm-5, div.vc_col-sm-6, 
+div.vc_col-sm-7, div.vc_col-sm-8, div.vc_col-sm-9, 
+div.vc_col-sm-10, div.vc_col-sm-11, .column, .columns {
+	float : left;
+}
+[class*="block-grid-"] > li {
+	float: right;
+}
+.show-menu {
+	left: auto;
+	right: 20px;
+}
+.show-menu.moved {
+	left: auto;
+	right: 280px;
+}
+.meny li {
+	direction: rtl;
+}
+.woocommerce .addresses .title h3, .woocommerce-page .addresses .title h3 {
+	float: right
+}
+div.text-center {
+  text-align: center !important;
+}
+h2.section-title {
+	text-align: center;
+}
+article.node-blog .node-title {
+	text-align: right;
+	direction: rtl;
+}
+article.node-blog .user-picture {
+	left: auto;
+	right: 7px;
+}
+
+
+.meny li ul, .meny li ul li ul {
+  left: auto;
+  right: 215px;
+}
+.meny li ul a {
+  border-left: 0;
+  border-right: 2px solid;
+}    
+
+/*-----------liste langue---------------*/
+#lang_sel_list li {
+float: right;
+}
+#lang_sel_list ul {
+    margin-right: 30px !important;
+}
+
+.sidebar-right .block-title {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+a.comment-reply-link, a.comment-edit-link {
+  float: left;
+}
+.comment-author > img {
+  float: right;
+}
+.comment section.comment {
+  padding-left: 0;
+  padding-right: 80px;
+}
+.text-right {
+  text-align: left !important;
+}
+.text-left {
+  text-align: right !important;
+}
+.left {
+  float: right !important;
+}
+.postdate {
+  border-left: 1px solid #ccc;
+  margin-left: 10px;
+  padding-left: 15px;
+  
+  border-right: 0;
+  margin-right: 0;
+  padding-right: 0;
+
+}
+.team-list li:hover .team-member-desc,.team-member-item h4,.team-member-item h3,.portfolio-item-link figcaption h3 {
+	text-align : center;
+}
+
+#slides .slides-container .container h2,
+#slides .slides-container .container p {
+  text-align: inherit;
+}
+.get-off .get-offf-title div {
+  float: right;
+}
+.book-appoinment h2 {
+  text-align: right;
+  padding: 13px 29px 13px 13px;
+}
+.featured-boxes .boxes.layout-2 .box-title-2 {
+  text-align: right;
+}
+.featured-boxes .boxes.layout-2 .box-body, .featured-boxes .boxes.layout-3 .box-body {
+  text-align: right;
+}
+.phonerepair_services.owl-carousel p.service-description-text {
+  padding-right: 80px;
+  padding-left: 0;
+}
+.phonerepair_services.owl-carousel h2 {
+  padding-right: 80px;
+  padding-left: 0;
+}
+.boxes.small .box-title-1 {
+  padding: 0 75px 0 0;
+}
+.boxes.small .box-body {
+  padding-right: 75px;
+}
+blockquote p::after {
+  right: 0;
+}
+.testimonials p::before {
+  left: 110px;
+}
+.social-icons li {
+  float: right;
+}
+
+.why-choose-us-section .section_head h2, .why-choose-us-section .section_head p {
+  text-align: right;
+}
+.brochure .boxes.small .box-title-1 {
+	padding: 0 70px 5px 0;
+}

@@ -1,0 +1,122 @@
+div.wd-item-title h4 {
+  background-image: url("../images/wd-title-bg.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  font-size: 2.3em;
+  padding-bottom: 30px;
+}
+.wpb_wrapper > h4 {
+  color: inherit;
+}
+.team-member-item h4 {
+	font-size: 13px;
+	font-weight: 500;
+}
+.team-member-item h3 {
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 5px;
+	font-weight: 700;
+  margin-top: 15px;
+}
+.team-member-name-job-title {
+	color: #333;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0 0;
+	position: relative;
+	width: 80%;
+	text-transform: uppercase;
+}
+.team-member-name-job-title:before {
+  border-bottom: 17px solid transparent;
+  border-top: 17px solid transparent;
+  content: " ";
+  position: absolute;
+  right: -14px;
+  top: 0;
+}
+.team-member-name-job-title:after {
+  border-bottom: 17px solid transparent;
+  border-top: 17px solid transparent;
+  content: " ";
+  position: absolute;
+  left: -14px;
+  top: 0;
+}
+
+li .team-member-item {
+  background-color: #fff;
+  margin: 0;
+  border: 1px solid #f0f0f0;
+  padding: 0;
+  transition: all .5s;
+  .team-member-picture {
+    transition: all .5s;
+  }
+  &:hover {
+    background-color: #fff;
+    .team-member-picture {
+      transform: translateY(2px);
+    }
+  }
+}
+.team-member-desc p {
+  color: #717171;
+	font-size: 13px;
+	margin-top: 18px;
+	padding: 0 6px;
+	text-align: center;
+}
+/* .team-membre-social-icons {
+  padding: 0 90px;
+} */
+.team-membre-social-icons ul {
+		border-top: 1px solid #f0f0f0;
+	  margin: 0;
+	  padding-top: 28px;
+	  padding-bottom: 20px;
+	li {
+		display: inline-block;
+	  margin: 0 4px;
+	  a {
+	  	color: #dcdcdc;
+	  	border: 1px solid #dcdcdc;
+			transition: color 0.2s;
+			padding: 3px 7px;
+
+			width: 34px;
+			height: 34px;
+			border-radius: 50%;
+      font-size: 16px;
+			display: inline-block;
+	  	&:hover {
+	  		background-color: #35a6e2;
+	  		color: #FFF;
+	  		border-color: #35a6e2;
+	  	}
+	  }
+	}
+}
+.wd-section-title.text-center > h2, .wd-section-title > .subtitle {
+  text-transform: uppercase;
+}
+.wd-section-title > .subtitle {
+	color: #929292;
+}
+.wd-section-title {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+  h2:after {
+  	background-color: #2bafe0;
+	  bottom: 0;
+	  content: " ";
+	  display: block;
+	  height: 1px;
+	  margin: 20px auto 0;
+	  width: 52px;
+	  }
+}
+.attachment-team {
+  width: 100%;
+}

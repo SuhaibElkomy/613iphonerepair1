@@ -1,0 +1,360 @@
+// Common abstract classes to extend or parametrics are stored here.
+.mi-row,
+.min-row-child > div {
+  max-width: $row-width/2;
+}
+.min-row-child.flt-right > div {
+  float: right;
+}
+// Example parametrics.
+// ------------------------------------------------------
+// %font-FONTNAME   {}
+// %font-sans-serif { font-family: sans-serif; }
+// %font-serif      { font-family: serif; }
+body {
+
+}
+p {
+  margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 23px;
+  line-height: 26px;
+  margin: 36px 0;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+.section_head h2 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: center;
+}
+.section_head p {
+  font-size: 17px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.wpb_wrapper {
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+  }
+}
+
+
+
+/*_______________________________________ Wordepress Classes ____________________________________________________*/
+#mask {
+  display: none;
+  background-color: #FFFFFF;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+}
+.loader {
+  height: 40px;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+}
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+.alignright {
+  float:right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%; /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+.wp-block-button {
+  margin: 20px 0;
+  &.alignleft {
+    margin-top: 0;
+    margin-right: 15px;
+  }
+  &.alignright {
+    margin-top: 0;
+    margin-left: 15px;
+  }
+ 
+}
+.wp-block-cover p:not(.has-text-color) {
+  color: #fff;
+}
+.wp-block-cover {
+  margin: 15px 0;
+  &.alignleft {
+    margin-right: 15px;
+  }
+  .wp-block-cover-text {
+    font-size: 36px;
+    line-height: 1.8;
+    padding: 0 40px;
+  }
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+/*___________________________________________________________________________________________*/
+
+pre {
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  overflow: auto;
+  padding: 20px;
+  white-space: pre-wrap; 
+}
+
+// Style Swicher
+
+.wd-front-panel {
+  background-color: #f4f4f4;
+  left: 0;
+  margin-top: 290px;
+  padding: 20px;
+  border-radius: 0 0 10px;
+  position: fixed;
+  transition: all 0.5s ease 0s;
+  width: 280px;
+  z-index: 2;
+  table tr.even, table tr.alt, table tr:nth-of-type(2n) {
+    background-color: #f4f4f4;
+  }
+}
+.wd-front-panel.close {
+  left: -280px;
+  -webkit-transition: all ease 1s;
+  -moz-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+}
+.wd-panel-cog {
+  background-color: #fff;
+  position: absolute;
+  right: -52px;
+  text-align: right;
+  top: 0;
+}
+.wd-panel-cog a {
+  display: inline-block;
+  padding: 8px 14px;
+  font-size: 30px;
+  i {
+    animation: 6s linear 0s normal none infinite running fa-spin;
+  }
+}
+.wd-front-panel .cmn-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+.wd-front-panel .cmn-toggle + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.wd-front-panel input.cmn-toggle-round + label {
+    padding: 2px;
+    width: 54px;
+    height: 20px;
+    background-color: #dddddd;
+    border-radius: 60px;
+}
+
+.wd-front-panel input.cmn-toggle-round + label:before,
+.wd-front-panel input.cmn-toggle-round + label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
+
+.wd-front-panel input.cmn-toggle-round + label:before {
+    right: 1px;
+    background-color: #f1f1f1;
+    border-radius: 60px;
+    transition: background 0.4s;
+}
+
+.wd-front-panel input.cmn-toggle-round + label:after {
+    width: 22px;
+    height: 22px;
+    top: -2px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: margin 0.4s;
+}
+
+.wd-front-panel input.cmn-toggle-round:checked + label:before {
+    background-color: #8ce196;
+}
+
+.wd-front-panel input.cmn-toggle-round:checked + label:after {
+    margin-left: 30px;
+}
+.wd-front-panel table {
+  background: transparent;
+  border: none;
+  margin-bottom: 0;
+}
+
+.wd-front-panel table tr.even, table tr.alt, table tr:nth-of-type(2n) {
+  background-color: transparent;
+}
+.wd-bg-image {
+  padding: 0;
+  input {
+    display: none;
+  }
+  label {
+    box-shadow: 0 0 3px 1px #aaa;
+    display: inline-block;
+    height: 40px;
+    margin: 3px;
+    width: 40px;
+  }
+  label.label_selected {
+    box-shadow: 0 0 3px 1px #ff8700;
+  }
+  .checkbox_image1 {
+    background-image: url("../images/pattern/pattern1-mini.jpg");
+    margin-right: 4px;
+    margin-bottom: 0;
+    background-size: cover;
+  }
+  .checkbox_image2 {
+    background-image: url("../images/pattern/pattern2-mini.jpg");
+    margin-right: 4px;
+    background-size: cover;
+  }
+  .checkbox_image3 {
+    background-image: url("../images/pattern/pattern3-mini.jpg");
+    margin-right: 4px;
+    background-size: cover;
+  }
+  .checkbox_image4 {
+    background-image: url("../images/pattern/pattern4-mini.jpg");
+    margin-right: 4px;
+    background-size: cover;
+  }
+}
+.body ul {
+  list-style-type: initial;
+}

@@ -1,0 +1,39 @@
+div.wpb_row {
+  margin:0;
+}
+.vc_responsive .wpb_row .full_section_container{
+  .vc_span12,
+  .vc_col-sm-12 {
+    padding:0;
+  }
+}
+.wd-call-to-action.get-quote {
+	padding-left: 0;
+	padding-right: 0;
+}
+.vc_btn_square_outlined, a.vc_btn_square_outlined, button.vc_btn_square_outlined, .vc_btn_square_outlined:hover, a.vc_btn_square_outlined:hover, button.vc_btn_square_outlined:hover, .vc_btn_square_outlined:focus, a.vc_btn_square_outlined:focus, button.vc_btn_square_outlined:focus {
+	border-width: 1px !important;
+}
+.vc_btn, a.vc_btn, button.vc_btn {
+	padding: 9px 22px !important;
+}
+.btn-primary {
+	background-color: #FFC300 !important;
+}
+/*
+ * --------caroucel--------------
+ */
+
+div.owl-carousel .owl-nav > div {
+  top: 10%;
+  height: 50px;
+  &.owl-prev {
+    left: -25px;
+    padding-right: 40px;
+  }
+  &.owl-next {
+    right: -25px;
+    padding-right: 40px;
+  }
+}
+

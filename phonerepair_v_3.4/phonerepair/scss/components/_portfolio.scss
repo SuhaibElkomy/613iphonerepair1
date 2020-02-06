@@ -1,0 +1,16 @@
+.portfolio {
+  [class*="block-grid-"] > li {
+    padding: 0;
+  }
+
+  .carousel-details h3 a {
+    color: #f55a60;
+    font-weight: 500;
+  }
+  .wd-carousel-container {
+    background: #000;
+    &:hover > img {
+      opacity: 0.6;
+    }
+  }
+}

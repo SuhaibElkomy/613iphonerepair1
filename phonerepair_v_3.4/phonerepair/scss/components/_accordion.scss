@@ -1,0 +1,204 @@
+@import "compass/css3";
+.wpb_accordion.wd-accordion-style-1[class*="column"] {
+	float: left;
+	width: 100%;
+}
+.wpb_accordion.wd-accordion-style-3[class*="column"] {
+	float: left;
+	width: 100%;
+}
+.wd-accordion-style-1, .wd-accordion-style-3 {
+	.wpb_accordion_header.ui-accordion-header.ui-state-default.ui-accordion-header-active.ui-state-active.ui-corner-top.ui-accordion-icons {
+		background: transparent;
+	}
+}
+.wd-accordion-style-1 .wpb_accordion_header.ui-accordion-header.ui-state-default.ui-accordion-icons.ui-corner-all, .wd-accordion-style-3 .wpb_accordion_header.ui-accordion-header.ui-state-default.ui-accordion-icons.ui-corner-all {
+  background: transparent;
+}
+.wpb_accordion.wd-accordion-style-1 .wpb_accordion_wrapper .ui-state-default .ui-icon {
+	background-image: url("../images/wd-bg-accordios-s1.png");
+	height: 39px;
+	top: 0;
+}
+.wpb_content_element.wd-accordion-style-3 .wpb_accordion_wrapper .wpb_accordion_header, .wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab {
+  background: transparent;
+}
+.wpb_accordion.wd-accordion-style-3 .wpb_accordion_wrapper .ui-state-default .ui-icon, .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+	background-image: none;
+}
+.wpb_accordion.wd-accordion-style-1 .wpb_accordion_wrapper .ui-state-active .ui-icon {
+  background-image: url("../images/wd-bg-accordios-s1-active.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.wpb_accordion.wd-accordion-style-2 .wpb_accordion_wrapper .ui-state-default .ui-icon {
+	background-image: url("../images/wd-bg-accordios-s2.png");
+}
+.wpb_accordion.wd-accordion-style-2 .wpb_accordion_wrapper .ui-state-active .ui-icon {
+  background-image: url("../images/wd-bg-accordios-s2-active.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.wpb_accordion.wd-accordion-style-1 .wpb_accordion_wrapper .ui-state-default .ui-icon {	
+  background-repeat: no-repeat;
+  background-position: right center;
+  right: auto;
+  left: 4px;
+  top: 2px;
+}
+.wd-accordion-style-1.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header {
+	font-size: 18px;
+	font-weight: 300;
+}
+.wpb_accordion.wd-accordion-style-2 .wpb_accordion_wrapper .wpb_accordion_header {
+	height: 38px;
+}
+.wpb_accordion.wd-accordion-style-2 .wpb_accordion_wrapper .ui-state-default .ui-icon, .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+	height: 38px;
+	right: 0;
+	top: 0;
+	width: 38px;
+}
+.wpb_accordion.wd-accordion-style-2 .wpb_accordion_header.ui-accordion-header a {
+  padding-top: 3px;
+  text-transform: uppercase;
+}
+.wpb_accordion.wd-accordion-style-1 .wpb_accordion_wrapper .wpb_accordion_header a {
+	padding-left: 42px;
+	border-top: 1px solid #f3f3f3;
+	color: #333;
+}
+.wpb_accordion.wd-accordion-style-2 .wpb_accordion_header.ui-accordion-header.ui-state-default.ui-accordion-icons.ui-accordion-header-active.ui-state-active.ui-corner-top {
+  background: #323232;
+  a {
+  	color: #FFF;
+  }
+}
+.social-icons .boxes.small.layout-1 {
+	.box-title-1 {
+		padding: 0 0 5px 90px;
+	}
+	.box-body {
+		clear: none;
+		padding: 0 0 5px 90px;
+	}
+	.box-icon {
+	  padding: 20px 25px;
+	  width: 80px;
+	  color: #FFF;
+	}
+}
+.facebook {
+	.box-icon {
+		background: #25579e;
+	}
+}
+.twitter {
+	.box-icon {
+		background: #0cbce3;
+	}
+}
+.instagram {
+	.box-icon {
+		background: #a9c511;
+	}
+}
+.youtube {
+	.box-icon {
+		background: #e31b1b;
+	}
+}
+.progress .meter {
+  background: #B68600;
+}
+.wpb_wrapper .wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email,.wpcf7-text {
+  background-color: #fff;
+	border: 1px solid #ccc !important;
+	height: 3.7em !important;
+	padding: 10px 30px 10px 20px !important;
+}
+
+.newslettre-section {
+	background-color: #dfe7eb;
+	@include background-image(linear-gradient(left, #dfe7eb 0%, #e7dbdf 100%));
+}
+.newslettre-form {
+  margin: 0 auto;
+  width: 400px;
+  position: relative;
+  .wpcf7-form-control.wpcf7-submit.wd-submit-bnt {
+	  background-color: transparent;
+		background-image: url("../images/pen-icon.png");
+		background-position: center center;
+		background-repeat: no-repeat;
+		height: 43px;
+		padding: 0 19px;
+		position: absolute;
+		right: 0;
+		text-indent: -999em;
+		top: 1px;
+	}
+}
+.newslettre-section .wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+  margin-bottom: 0 !important;
+}
+.newslettre-section {
+  margin-bottom: 0 !important;
+}
+div.wd-item-title {
+  margin-bottom: 40px !important;
+}
+.wd-accordion-style-2 .ui-accordion-header-active,.wd-accordion-style-2 .ui-tabs-active,.wd-accordion-style-2 .box-icon {
+  border: none;
+}
+.wd-accordion-style-1 .ui-accordion-header-active,.wd-accordion-style-1 .ui-tabs-active,.wd-accordion-style-1 .box-icon {
+  border: none;
+}
+div.wpb_accordion.wd-accordion-style-1 .wpb_accordion_wrapper .wpb_accordion_header {
+  padding:0;
+}
+.wpb_content_element.wd-accordion-style-3 .wpb_accordion_wrapper .wpb_accordion_header, .wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab,.wpb_content_element.wd-accordion-style-3 .wpb_accordion_wrapper .wpb_accordion_header {
+	background-color: transparent;
+}
+.wd-accordion-style-3.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a {
+  color: #444;
+  padding-left: 24px;
+}
+.wd-accordion-style-3 .wpb_accordion_section.group .ui-accordion-header-icon:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 18px;
+  margin-top: 11px;
+  position: absolute;
+  margin: 6px 17px 0 -3px;
+}
+.wd-accordion-style-3 .wpb_accordion_section.group .ui-accordion-header-active .ui-accordion-header-icon:before {
+  content: "\f107";
+  font-family: "FontAwesome";
+  font-size: 18px;
+  margin-top: 11px;
+  position: absolute;
+  margin: 6px 17px 0 -3px;
+  color: #DC494F;
+}
+.wd-accordion-style-3 .wpb_accordion_section.group .ui-accordion-header-active {
+	color: #DC494F;
+}
+.wd-accordion-style-3.wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon, .wd-accordion-style-3.wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+  left: 10px;
+  top: 4px;
+}
+.wd-accordion-style-3 .wpb_accordion_section.group .ui-accordion-header-icon:before
+.wd-accordion-style-3 .ui-accordion-header-active {
+
+}
+.wd-accordion-style-3 .wpb_accordion_section.group {
+  border-bottom: 1px solid #ccc;
+}
+.wd-accordion-style-3 .wpb_accordion_section.group h3 {
+  margin: 0;
+  padding: 0;
+}
+.wd-accordion-style-3 .ui-accordion-header-active, .ui-tabs-active, .box-icon {
+	border: 0;
+}

@@ -1,0 +1,78 @@
+// Docs: http://foundation.zurb.com/docs/components/type.html
+// Before adding styles be sure to modify variables.
+p {
+  line-height: 1.714;
+}
+
+
+.title {}
+.node-title {}
+.page-title {}
+.block-title {}
+
+.item-list {}
+
+div {
+  &.wpb_wrapper {
+    ul {
+       li {
+         &.ui-state-default {
+         padding: 5px 10px;
+        }
+      }
+    }
+  }
+}
+.ui-tabs-active {
+  background: none repeat scroll 0 0 #fff;
+    border-top: 2px solid #b68600;
+    
+}
+.ui-accordion-header-active {
+  background: none repeat scroll 0 0 #fff;
+  border-top: 2px solid #b68600; 
+  border-bottom: 1px solid #EFEFEF;
+}
+
+div{
+  &.wpb_accordion { 
+    .wpb_accordion_wrapper { 
+      .wpb_accordion_header{
+        padding: 5px 0;
+      }
+    }
+  }
+}
+
+div.collapsed-title {
+  margin-bottom: 40px !important;
+}
+.collapsed-title,
+.collapsed-title h2 {
+  font-size: 1.95em;
+  font-weight: bolder;
+  line-height: 0.95em;
+  margin: 0;
+}
+
+.collapsed-title h2:nth-child(2) {
+  color: #f55a60;
+}
+
+
+blockquote {
+  border-left: 3px solid #ff0e0e;
+  margin: 3em 0 2.7rem;
+  padding: 0.5625rem 0 0.5625rem 3rem;
+  p {
+    color: #ddd;
+    font-weight: 700;
+    line-height: 1.6;
+    margin: 0;
+  }
+  cite {
+     font-style: normal;
+     font-weight: bold;
+     padding-left: 25px;
+  }
+}

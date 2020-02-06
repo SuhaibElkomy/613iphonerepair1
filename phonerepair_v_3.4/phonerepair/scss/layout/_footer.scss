@@ -1,0 +1,138 @@
+$l-footer-columns-bg: #242730;
+$l-footer: #1D1B1B;
+
+
+
+.l-footer-columns {
+  background: $l-footer-columns-bg;
+  clear: both;
+  color: #FFF;
+  .social-icons li {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    width: 24;
+    text-align: center;
+    & i {
+      font-size: 13px;
+      color: #fff;
+      padding: 3px 3px;
+      margin: 0;
+      width: 24px;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  .wp-caption-text {
+    color: #000;
+  }
+  .block-title {
+    text-transform: uppercase;
+    color: #e4e4e4;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.43);
+    margin-bottom: 25px;
+    padding-bottom: 0px;
+    font-size: 1.1em;
+    font-weight: 700;
+    &:after {
+      /* content: "";
+      display: block;
+      width: 30px;
+      border-bottom: 1px solid $primary-color;
+      margin-bottom: -1px;
+      padding-bottom: 8px; */
+    }
+  }
+  a {
+    color: #FFF;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .block-comment-recent li span {
+    display: block;
+    font-size: 13px;
+    opacity: 0.4;
+  }
+  .latest-posts {
+    .blog-title a {
+      font-size: 16px;
+    }
+    ul li {
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.07);
+    }
+  }
+  .sub-menu, .children {
+    display: block;
+    margin-left: 10px;
+    li {
+      padding-bottom: 0;
+    }
+  }
+  .block-title {
+    margin-top: 40px;
+  }
+}
+
+.l-footer {
+  background: $l-footer;
+  border: none;
+  color: #777;
+  color: #777;
+  padding-bottom: 30px;
+  a {
+    color: #ddd;
+  }
+  & h1, & h2, & h3, & h4, & h5, & h6 {
+    color: #FFF;
+  }
+  p {
+    margin : 0;
+    padding-bottom : 0.7em;
+    direction: ltr;
+  }
+  .footer  {
+    text-align : left;
+  }
+  margin-bottom:0;
+  section.block {
+    padding: 0;
+  }
+}
+#lang_sel_list ul a, #lang_sel_list_list ul a:visited,#lang_sel_list a, #lang_sel_list a:visited {
+  background : none;
+}
+.l-footer-columns tfoot {
+  background: none repeat scroll 0 0 transparent;
+}
+.l-footer-columns table {
+  background-color: rgba(255,255,255,.3);
+}
+.l-footer-columns table tr.even, table tr.alt, table tr:nth-of-type(2n) {
+  background-color: transparent;
+}
+.l-footer-columns #s {
+  background: rgba(255,255,255,.3);
+  border-bottom: 0;
+  border-width: 0;
+}
+.l-footer-columns input#searchsubmit {
+  height: 40px;
+  top: 0;
+}
+.l-footer-columns table caption {
+  color: #AAA;
+}
+.l-footer-columns ul {
+  margin-left: 0;
+}
+.phonerepair_footer_menu {
+  ul {
+    li {
+      display: inline-block;
+      padding: 4px 10px;
+    }
+  }
+}

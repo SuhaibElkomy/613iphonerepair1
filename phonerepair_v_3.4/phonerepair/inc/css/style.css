@@ -1,0 +1,494 @@
+.phonerepair_position1 {
+  background: url("../images/menu1.jpg");
+}
+.phonerepair_position2 {
+  background: url("../images/menu2.jpg");
+}
+.phonerepair_position3 {
+  background: url("../images/menu4.jpg");
+}
+.phonerepair_position4{
+  background: url("../images/menu5.jpg");
+}
+.phonerepair_position5 {
+  background: url("../images/menu3.jpg");
+}
+
+.phonerepair_footer1 {
+  background: url("../images/footer1.jpg");
+}
+.phonerepair_footer2 {
+  background: url("../images/footer3.jpg");
+}
+.phonerepair_footer3 {
+  background: url("../images/footer4.jpg");
+}
+.phonerepair_footer4{
+  background: url("../images/footer2.jpg");
+}
+.phonerepair_footer5 {
+  background: url("../images/footer5.jpg");
+}
+.phonerepair_footer {
+  border: 2px solid transparent;
+}
+.phonerepair_footer.label_selected, .phonerepair_footer:hover {
+  border-color: #26d7de;
+}
+.rtl .wd-cpanel .ui-tabs-vertical .ui-tabs-panel {
+    margin-right: 260px;
+    margin-left: 0;
+}
+.wp-admin.post-type-page #acf-tile_type {
+  clear: both;
+}
+.wp-admin.post-type-page #acf-phonerepair_show_in_start .acf-checkbox-list label {
+  background: #fffE00;
+  padding: 5px 110px 5px 10px;
+}  
+.wp-admin.post-type-page #acf_acf_page-settings {
+  overflow: hidden; 
+} 
+
+  
+#wd-Panel .form-table table tr td:first-child {
+  background: transparent none repeat scroll 0 0;
+  width: 20%;
+}
+.wd-cpanel .label {
+  color: #444;
+}
+.eight.columns.wp-core-ui > p {
+  text-align: center;
+  margin: 0;
+}
+.phonerepair_txt_big {
+  width: 350px;
+}
+.phonerepair_txt_desc {
+  color: #555;
+  font-size: .9em;
+}
+
+.phonerepair_start_screan-l {
+  padding: .4%;
+  display: inline-block;
+  width: 18%;
+  background: #FFF;
+  /*border: 5px solid #FFF;*/
+  opacity: .3;
+}
+.phonerepair_start_screan-l img {
+  width: 100%;
+}
+.phonerepair_start_screan-l.selected {
+  background: #FFFF7F;
+  /*border: 5px solid #FFFF7F;*/
+  opacity: 1;
+}
+.phonerepair_start_screan-l input {
+  display: none;
+}
+#wd-Panel .form-table {
+  margin: 0;
+  min-height: 400px;
+  height: 400px;
+}
+
+
+.wd-cpanel .ui-helper-clearfix:before, 
+.wd-cpanel .ui-helper-clearfix:after {
+    border-collapse: collapse;
+    content: "";
+    display: table;
+}
+.wd-cpanel .ui-helper-clearfix:after {
+    clear: both;
+}
+.wd-cpanel .ui-helper-clearfix:before, 
+.wd-cpanel .ui-helper-clearfix:after {
+    border-collapse: collapse;
+    content: "";
+    display: table;
+}
+.wd-cpanel .ui-helper-clearfix {
+  background-color: #F2F7F6;
+  box-shadow: 0 0 1px #c9c8c8;
+}
+#wd-Panel .ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
+  height: auto;
+  min-height: 550px;
+  position: absolute;
+  margin: 0;
+  width: 20em;
+  background-color: #3e6372;
+}
+.wd-cpanel .ui-tabs-vertical {
+  position: relative;
+}
+.wd-cpanel .panel-logo {
+  padding: 2em;
+  text-align : center;
+  font-size : 1.5em;
+}
+.wd-cpanel .cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.wd-cpanel .cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+.wd-cpanel input.cmn-toggle-round + label {
+  padding: 2px;
+  width: 64px;
+  height: 16px;
+  background-color: #dddddd;
+  border-radius: 60px;
+}
+#wd-Panel #switch-toggle-2 img {
+  margin-top: 2em;
+}
+#wd-Panel .tab-title {
+  margin-left: 2em;
+}
+.wd-cpanel input.cmn-toggle-round + label:before,
+.wd-cpanel input.cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+.wd-cpanel input.cmn-toggle-round + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+.wd-cpanel #switch-toggle-1 {
+  visibility:hidden;
+}
+.wd-cpanel #switch-toggle-2 {
+  visibility:hidden;
+}
+.wd-cpanel #switch-toggle-3 {
+  visibility:hidden;
+}
+.wd-cpanel input.cmn-toggle-round + label:after {
+  width: 22px;
+  height: 22px;
+  top: -2px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+}
+.wd-cpanel input.cmn-toggle-round:checked + label:before {
+  background-color: #1eca6b;
+}
+.wd-cpanel input.cmn-toggle-round:checked + label:after {
+  margin-left: 49px;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav {
+  float: left;
+  width: 12em;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li {
+  clear: left;
+  width: 100%;
+  text-align: center;
+  border-bottom-width: 1px !important;
+  border-right-width: 0 !important;
+  margin: 0;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li a {
+  display: block;
+  font-size: 1.2em;
+  padding: 15px 0 18px 70px;
+  text-align: left;
+  color: #FFF;
+  text-decoration: none;
+  -webkit-transition: all .2s ease-in;
+     -moz-transition: all .2s ease-in;
+      -ms-transition: all .2s ease-in;
+       -o-transition: all .2s ease-in;
+          transition: all .2s ease-in;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li a:hover {
+  background-color: #26d7de;
+  color: #fff;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a {
+  background-color: #26d7de;
+  color: #fff;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+  padding-bottom: 0;
+  padding-right: .1em;
+  border-right-width: 1px;
+  border-right-width: 1px;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-panel {
+  padding: 0;
+  margin-left: 260px;
+  min-height: 550px;
+  float: left;
+  width: 80%;
+}
+#wd-Panel .form-table tr td:first-child {
+  background: none repeat scroll 0 0 #fff;
+  padding-right: 20px;
+  text-align: right;
+}
+#wd-Panel table td {
+  padding: 15px 10px;
+}
+.large-4.columns {
+  float: left;
+  width: 33%;
+}
+.option-item.tile {
+  background: #0000FF;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: 10px;
+  padding-top: 8px;
+  text-align: center;
+}
+.option-item.medium {
+  margin: 0.5%;
+  width: 48.5%;
+  height: 110px !important;
+}
+@media only screen and (max-width: 1260px) {
+  .option-item.medium {
+    width: 48.3%;
+  }
+}  
+.option-item.big,
+.option-item.wide {
+  width: 99%;
+  margin: 0.5%;
+}
+.option-item.big {
+  height: 232px !important;
+}
+.option-item.wide {
+  height: 110px !important;
+}
+.option-item.tile .label,
+.option-item.tile select {
+  color:#FFF;
+  background-color: transparent;
+}
+.option-item.tile .label {
+  font-size: 14px;
+  padding: 3px 0 10px;
+  text-transform: uppercase;
+}
+.option-item.tile select {
+  margin-bottom: 8px;
+}
+.option-item.tile select,
+.option-item.tile .wp-color-result {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.option-item.tile .wp-picker-container {
+  display: inline-block;
+  line-height: 31px;
+  width: 120px;
+}
+
+.wd-cpanel .wd-save-btn-holder {
+  text-align: center;
+  clear: both;
+}
+.wd-cpanel .wd-save-btn-holder button,
+.wd-cpanel .wd-save-btn-holder button:hover,
+.wd-cpanel .wd-save-btn-holder button:active {
+  background: #00A8FF;
+  color: #fff;
+  padding: 7px 20px;
+  display: inline-block;
+  height: auto;
+  box-shadow: none;
+  border: 1px solid;
+  font-size: 1.2em;
+  border-radius: 2px;
+  transition: padding .3s ease;
+}
+.wd-cpanel .wd-save-btn-holder button:hover,
+.wd-cpanel .wd-save-btn-holder button:active {
+  padding: 7px 25px;
+  background: #029EEF;
+}
+/*
+ * ---------- checkbox menu position---------------
+ */
+.logo_position label,.phonerepair_footer_columns label{
+	 height: 100px;
+    margin: 20px 20px 20px 0;
+    padding: 32px 50px;
+    width: 100px;
+	box-shadow:0 0 3px 1px #aaa;
+}
+.logo_position label.label_selected, .logo_position label:hover {
+	box-shadow: 0 0 3px 1px #ff8700;
+}
+.logo_position input,.phonerepair_footer_columns  input{
+	display:none;
+}
+
+/*-----------multiple image--------------/*
+ * 
+ */
+ .wd-gallery-image-holder {
+    float: left;
+    margin-right: 15px;
+}
+
+.page_position_hide {
+  display: none;
+}
+#phonerepair_meta_box_multiple_portfolio_image {
+  min-height: 257px;
+}
+
+.input-group-addon {
+	 background: #eee none repeat scroll 0 0;
+    border: 1px solid;
+    padding: 2px;
+}
+.input-group-addon i{
+	padding: 2px;
+}
+
+
+
+#wpfooter {
+  position: relative;
+}
+.panel-logo {
+  background: url("../images/patern.jpg");
+  background-repeat: repeat-x;
+  text-align: right;
+  box-shadow: 0 2px 3px 0px #8b8b8b;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.panel-logo > h2 {
+  background: url("../images/bg-panel.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  color: #FFF;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 19px;
+}
+.wd-cpanel .wrap {
+  margin: 0;
+}
+.wd-cpanel form {
+  margin: 0;
+}
+.wd-validate {
+  padding: 10px;
+  background-color: #1c2630;
+}
+.wd-validate.wp-core-ui .button {
+  background-color: transparent;
+  border-width: 2px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 14px;
+  height: 38px;
+  padding: 0 12px;
+  transition: all 0.3s ease 0s;
+}
+.wd-validate.wp-core-ui span {
+  padding: 10px 9px 10px 0;
+}
+.wd-validate.wp-core-ui .button:hover {
+  background-color: #26d7de;
+  border-color: #fff;
+  color: #fff;
+}
+div#tabs ul li span {
+  background-color: #223e49;
+  box-shadow: 3px 0 0 0 rgba(52, 52, 52, 0.53);
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 18px;
+  padding: 17px;
+}
+div#tabs ul li:hover span, div#tabs ul li.ui-tabs-active span {
+  background-color: #0B8C93;
+}
+
+
+/*Import demo screenshot*/
+.import-demo-screenshot label {
+  height: 215px;
+  margin: 20px 20px 20px 0;
+  display: inline-block;
+  width: 300px;
+  box-shadow:0 0 3px 1px #aaa;
+}
+.import-demo-screenshot label.label_selected {
+  box-shadow: 0 0 3px 4px #ff8700;
+}
+.import-demo-screenshot input{
+  display:none;
+}
+.demo-1 {
+  background: url("../images/demo-1.jpg");
+  background-repeat: no-repeat;
+}
+.demo-2 {
+  background: url("../images/demo-2.jpg");
+  background-repeat: no-repeat;
+}
+
+.rs-update-notice-wrap,
+.eg-update-notice-wrap {
+  display: none !important;
+}
+/*---------------Tab font setting -----------------*/
+.font-table .select2-container {
+  width: 100% !important;
+}
+.font-table  tr {
+  border-bottom: 1px solid #b4b1b1;
+}
+.font-table  tr:last-child {
+  border-bottom: none;
+}
+#wd-Panel table.font-table td {
+  background: #fff;
+}
+.font-table .previews {
+  border: dashed 3px #b4b1b1;
+  padding: 10px;
+}
+.font-table label {
+  display: block;
+  padding-bottom: 5px;
+  color: #a7a7a7;
+}
+#wd-Panel .form-table.font-table tr td:first-child {
+  text-align: left;
+}
+
+.font-table.form-table td {
+  vertical-align: top;
+}
+.font-table .section-title {
+  padding-top: 25px;
+}

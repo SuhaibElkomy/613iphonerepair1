@@ -1,0 +1,13 @@
+.list-icon li {
+  list-style: none;
+  i {
+    padding-right: 8px;
+  }
+}
+.wd-lists.wd-list-1 li:before {
+  font-family: 'FontAwesome';
+  content: '\f058';
+  margin: 0 12px 0 -15px;
+  color: #DC494F;
+  line-height: 2.3em;
+}

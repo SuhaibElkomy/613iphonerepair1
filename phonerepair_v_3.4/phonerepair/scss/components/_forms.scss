@@ -1,0 +1,60 @@
+// Docs: http://foundation.zurb.com/docs/components/forms.html
+
+// Drupal specific classes
+// ----------------------------------------------------------------------------
+.form-text {}
+.form-submit {}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea,
+
+input.wpcf7-submit {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+
+textarea {
+  height: 220px;
+  padding: 15px;
+}
+label {
+  color: #000;
+  font-size: 14px;
+}
+
+.contact_icon {
+  i.fa
+  {
+    color: #177acc;
+    margin-right:10px;
+    font-size: 1.2em;
+    height: 30px;
+  }
+  p {
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 10px;
+  }
+}
+.post-password-form {
+  input[type="submit"]  {
+    padding: 10px 20px;
+    background:$primary-color;
+    border:none;
+  }
+}

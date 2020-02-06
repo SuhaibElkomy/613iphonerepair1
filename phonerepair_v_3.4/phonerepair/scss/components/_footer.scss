@@ -1,0 +1,99 @@
+.l-footer-columns{ 
+  .block-title {
+    border-bottom: none;
+  }
+  .post-date {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #a8a8a8;
+  }
+  .post-date:before {
+    content: '>';
+    color: #e43500;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+}
+.l-footer-columns .block-title::after {
+border-bottom: none;
+}
+.l-footer-columns .large-block-grid-3 {
+ border-bottom: 1px solid  rgba(255,255,255,0.2);
+
+}
+.l-footer-columns .large-block-grid-3 li a {
+font-weight: bold;
+}
+
+.textwidget i {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+.l-footer-columns  .wpcf7-form input, .l-footer-columns  .wpcf7-form textarea{
+background: #202020;
+border-color: #202020 !important;
+color:#aaa;
+}
+.l-footer-columns  .wpcf7-form .wpcf7-submit {
+background : #ff5d2d;
+color :#fff;
+}
+.phonerepair_footer_menu li {
+  border-right: 1px solid #384145;
+  display: inline-block;
+  padding: 0 36px;
+}
+.phonerepair_footer_menu li:last-child {
+    border: medium none;
+}
+.phonerepair_footer_menu {
+  .sub-menu {
+    display: none;
+  }
+}
+.newsletter-div {
+  position: relative;
+  margin-top: 10px;
+  .newslettersubmit {
+    border: 0 none;
+    box-shadow: none;
+    height: 40px;
+    padding: 0 14px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  input.email-adress {
+    background-color: transparent;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.56);
+  }
+}
+.footer-logo {
+  padding-top: 50px;
+  text-align: center;
+}
+#menu-footer-menu.menu {
+  text-align: center;
+}
+.l-footer .row {
+  padding-top: 1em;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l-footer p {
+  margin: 0;
+  padding-bottom: 0.7em;
+  direction: ltr;
+  font-size: 12px;
+  opacity: .5;
+}
+@media #{$small-only} {
+  .l-footer-columns .block,.textwidget,.footer-logo {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+}

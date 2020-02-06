@@ -1,0 +1,96 @@
+.phonerepair_onepost {
+  text-align:center;
+  .title-block {
+    h2 {
+      margin-bottom: 10px;
+    }
+    span {
+      width: 12px;
+      height: 12px;
+      display:block;
+      @extend .primary-color_bg;
+      margin:0 auto;
+    }
+    .description{
+      font-size: 1.2em;
+      margin-bottom: 20px !important;
+      margin-top: 17px;
+      opacity: 0.5;
+    }
+  }
+}
+.one_post_box {
+  height: 400px;
+  position:relative;
+  .box_image {
+     margin:0;
+     padding:0;
+     max-height: 400px;
+     overflow: hidden;
+     & > img {
+       height: 400px;
+       max-width: none;
+       width: auto;
+     }
+  .titel_icon {
+    width:100%;
+    position:absolute;
+    text-align: left;
+    bottom: 0;
+    @media #{$small}{
+      bottom: -50%;
+      opacity: 0;
+    }
+    @include transition (all .3s ease-in);
+    height: 35%;
+    padding-top: 3%;
+    //@include filter-gradient(#000a02, #b30101, vertical);
+    //@include background-image(linear-gradient(top,  rgba(10,2,2,0) 0%,rgba(2,1,1,0.5) 100%));
+    h3 {
+      margin-top: -7px;
+      margin-bottom: 2px;
+      color:#fff;       
+    }
+   .box_icon {
+        float: left;
+        margin-right: 10px;
+        width: 10%;
+        padding: 10px 14px;
+        text-align:center;
+        @extend .primary-color_bg;
+        i{
+          font-size: 2em;
+          color: #fff;
+        }
+      }
+    }    
+    &:hover .titel_icon {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+  
+.more {
+    @extend .primary-color_bg;
+    @media #{$small} {
+      height:100%;
+    }
+    & > div {
+      margin-top: 30px;
+      margin-bottom: 30px !important;
+      @media #{$small} {
+        margin-top: 41%;
+      }
+    }
+    i {
+      font-size:1.6em;
+      margin-top: 26px;
+    }
+    h3 {
+      color:#fff;
+    }
+     margin:0;
+    padding:0;
+  }
+}
+ 
